@@ -6,6 +6,7 @@ DATADIR = os.getcwd() + "\\Training Samples"
 print(DATADIR)
 CATEGORIES = ["N", "P"]
 
+#use any tennis match video here
 cap = cv2.VideoCapture("videos/moments.mp4")
 frame_number = 0
 
