@@ -21,6 +21,7 @@ def prepare(filepath):
 
 model = tf.keras.models.load_model("pointornopoint-CNN.model")
 
+#use any tennis match video here
 cap = cv2.VideoCapture("videos/aus2010.mp4")
 
 while True:
