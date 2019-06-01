@@ -6,6 +6,7 @@ DATADIR = os.getcwd()
 CATEGORIES = ["Top", "Botton"]
 VIDEO_LENGTH = 267603
 
+#use any tennis match video here
 cap = cv2.VideoCapture("videos/points.mp4")
 current_frame = 0
 mode = 0
